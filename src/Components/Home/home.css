@@ -1,0 +1,14 @@
+.heading {
+    color: rgb(91, 94, 119);
+    font-weight: 300;
+    font-size: 300%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.image {
+    
+    width: 100%;
+    height: auto;
+    
+}

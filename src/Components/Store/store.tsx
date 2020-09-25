@@ -27,7 +27,7 @@ const SliceforBasket = createSlice({
         
                 return {
                   ...item,
-                  added: false
+                  addedstatus: false
                 }
               })
             }
@@ -35,5 +35,5 @@ const SliceforBasket = createSlice({
         })
 
  const store = configureStore({reducer: SliceforBasket.reducer })
- export const {add} = SliceforBasket.actions
+ export const {add , remove} = SliceforBasket.actions
  export {store}

@@ -4,5 +4,6 @@ export interface items {
    image :  string,
    desc : string,
    price : number,
-   addedstatus: boolean
+   addedstatus: boolean,
+   quantity : number
 }
