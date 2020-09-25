@@ -1,0 +1,8 @@
+.App {
+    background:
+    linear-gradient(rgb(167, 171, 202), transparent),
+    linear-gradient(to top left, rgb(240, 230, 186), transparent),
+    linear-gradient(to top right, rgb(212, 212, 223), transparent);
+  background-blend-mode: screen;
+  height: 3000px;
+  }
